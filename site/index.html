@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Rafaela Requi – Corretora e Avaliadora de Imóveis em Igarapava</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script>(function(){try{var u=location.search.match(/[?&]theme=(dark|light)/);var t=u?u[1]:localStorage.getItem('rr_theme');if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.classList.toggle('dark',t==='dark');document.documentElement.style.colorScheme=t;var m=location.search.match(/[?&]fotos=(reais|ilustrativas)/);var ph=m?(m[1]==='reais'?'real':'stitch'):localStorage.getItem('rr_photos');if(ph==='real')document.documentElement.setAttribute('data-photos','real');}catch(e){}})();</script><style id="theme-vars">
+:root{--c-on-error:255 255 255;--c-on-secondary-fixed-variant:71 71 70;--c-surface-dim:216 202 182;--c-secondary-fixed:229 226 225;--c-tertiary-fixed-dim:61 226 115;--c-on-background:43 33 23;--c-surface-bright:246 238 226;--c-error:186 26 26;--c-surface-container-high:221 206 183;--c-on-primary:255 255 255;--c-surface-container:229 216 196;--c-inverse-primary:237 191 123;--c-secondary:107 93 75;--c-outline-variant:203 185 160;--c-on-tertiary-fixed:0 33 9;--c-background:241 231 217;--c-primary-fixed-dim:237 191 123;--c-secondary-fixed-dim:200 198 197;--c-inverse-surface:49 48 45;--c-on-secondary-fixed:27 27 28;--c-secondary-container:226 223 222;--c-on-tertiary-fixed-variant:0 83 34;--c-tertiary:0 109 47;--c-on-secondary:255 255 255;--c-surface-container-highest:211 195 170;--c-on-secondary-container:99 98 98;--c-on-primary-fixed-variant:96 65 7;--c-primary:122 88 31;--c-surface:241 231 217;--c-on-primary-fixed:40 24 0;--c-on-error-container:147 0 10;--c-inverse-on-surface:243 240 235;--c-surface-variant:211 195 170;--c-surface-tint:122 88 31;--c-surface-container-low:235 223 205;--c-tertiary-container:0 186 85;--c-primary-container:196 154 90;--c-on-primary-container:77 50 0;--c-on-surface:43 33 23;--c-error-container:255 218 214;--c-on-surface-variant:90 74 55;--c-primary-fixed:255 221 175;--c-tertiary-fixed:102 255 142;--c-outline:138 120 96;--c-surface-container-lowest:250 244 234;--c-on-tertiary-container:0 66 25;--c-on-tertiary:255 255 255}
+html.dark{--c-on-error:105 0 5;--c-on-secondary-fixed-variant:71 71 70;--c-surface-dim:15 14 13;--c-secondary-fixed:229 226 225;--c-tertiary-fixed-dim:61 226 115;--c-on-background:236 231 223;--c-surface-bright:47 45 41;--c-error:255 180 171;--c-surface-container-high:46 44 40;--c-on-primary:42 26 0;--c-surface-container:37 35 32;--c-inverse-primary:122 88 31;--c-secondary:184 178 168;--c-outline-variant:77 70 59;--c-on-tertiary-fixed:0 33 9;--c-background:22 21 19;--c-primary-fixed-dim:237 191 123;--c-secondary-fixed-dim:200 198 197;--c-inverse-surface:13 12 11;--c-on-secondary-fixed:27 27 28;--c-secondary-container:58 56 53;--c-on-tertiary-fixed-variant:0 83 34;--c-tertiary:95 220 141;--c-on-secondary:27 27 28;--c-surface-container-highest:56 53 48;--c-on-secondary-container:214 209 200;--c-on-primary-fixed-variant:96 65 7;--c-primary:212 169 101;--c-surface:22 21 19;--c-on-primary-fixed:40 24 0;--c-on-error-container:255 218 214;--c-inverse-on-surface:243 240 235;--c-surface-variant:56 53 48;--c-surface-tint:227 184 114;--c-surface-container-low:27 26 23;--c-tertiary-container:0 186 85;--c-primary-container:196 154 90;--c-on-primary-container:42 26 0;--c-on-surface:236 231 223;--c-error-container:147 0 10;--c-on-surface-variant:196 186 171;--c-primary-fixed:255 221 175;--c-tertiary-fixed:102 255 142;--c-outline:148 136 120;--c-surface-container-lowest:31 29 26;--c-on-tertiary-container:0 33 9;--c-on-tertiary:0 57 26;color-scheme:dark}
+html{color-scheme:light}
+img.img-real{display:none}
+html[data-photos=real] img.img-real{display:block}
+html[data-photos=real] img.img-stitch{display:none}
+.photo-opt{color:#f3f0eb;opacity:.75}
+.photo-opt[aria-pressed=true]{background:#c49a5a;color:#2a1a00;opacity:1}
+input[type=range],input[type=checkbox],input[type=radio]{accent-color:#c49a5a}
+@media (max-width:1023px){header.fixed{transition:top .3s ease}header.fixed.bar-hidden{top:calc(var(--bar-h,36px) * -1)}}
+html.theme-anim *,html.theme-anim *::before,html.theme-anim *::after{transition:background-color .35s ease,color .35s ease,border-color .35s ease,fill .35s ease!important}
+#theme-toggle .icon-sun,#theme-toggle .icon-moon{position:absolute;transition:transform .5s cubic-bezier(.4,0,.2,1),opacity .3s ease}
+#theme-toggle .icon-sun{transform:translateY(120%) rotate(-90deg);opacity:0}
+html.dark #theme-toggle .icon-moon{transform:translateY(-120%) rotate(90deg);opacity:0}
+html.dark #theme-toggle .icon-sun{transform:none;opacity:1}
+html.dark img:not([src*="logo"]){filter:brightness(.9) contrast(1.03)}
+html.dark article{box-shadow:0 0 0 1px rgba(196,154,90,.14)}
+html.dark [data-location]::before{content:"";position:absolute;inset:0;background:rgba(12,11,10,.5)}
+html.dark .text-surface-container{color:#ebe8e3}
+html.dark .text-surface-bright{color:#fcf9f4}
+html.dark .text-surface-container-highest\/40{color:rgba(229,226,221,.4)}
+html.dark .text-surface-container-high\/90{color:#fff}
+html.dark ::selection{background:rgba(196,154,90,.35)}
+html.dark .text-on-primary-container[class*="bg-primary-container/"]{color:rgb(var(--c-primary-fixed))}
+html.dark .bg-primary.text-white,html.dark [class*="hover:bg-primary"][class*="hover:text-white"]:hover{color:rgb(var(--c-on-primary))}
+</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-error":"rgb(var(--c-on-error) / <alpha-value>)","on-secondary-fixed-variant":"rgb(var(--c-on-secondary-fixed-variant) / <alpha-value>)","surface-dim":"rgb(var(--c-surface-dim) / <alpha-value>)","secondary-fixed":"rgb(var(--c-secondary-fixed) / <alpha-value>)","tertiary-fixed-dim":"rgb(var(--c-tertiary-fixed-dim) / <alpha-value>)","on-background":"rgb(var(--c-on-background) / <alpha-value>)","surface-bright":"rgb(var(--c-surface-bright) / <alpha-value>)","error":"rgb(var(--c-error) / <alpha-value>)","surface-container-high":"rgb(var(--c-surface-container-high) / <alpha-value>)","on-primary":"rgb(var(--c-on-primary) / <alpha-value>)","surface-container":"rgb(var(--c-surface-container) / <alpha-value>)","inverse-primary":"rgb(var(--c-inverse-primary) / <alpha-value>)","secondary":"rgb(var(--c-secondary) / <alpha-value>)","outline-variant":"rgb(var(--c-outline-variant) / <alpha-value>)","on-tertiary-fixed":"rgb(var(--c-on-tertiary-fixed) / <alpha-value>)","background":"rgb(var(--c-background) / <alpha-value>)","primary-fixed-dim":"rgb(var(--c-primary-fixed-dim) / <alpha-value>)","secondary-fixed-dim":"rgb(var(--c-secondary-fixed-dim) / <alpha-value>)","inverse-surface":"rgb(var(--c-inverse-surface) / <alpha-value>)","on-secondary-fixed":"rgb(var(--c-on-secondary-fixed) / <alpha-value>)","secondary-container":"rgb(var(--c-secondary-container) / <alpha-value>)","on-tertiary-fixed-variant":"rgb(var(--c-on-tertiary-fixed-variant) / <alpha-value>)","tertiary":"rgb(var(--c-tertiary) / <alpha-value>)","on-secondary":"rgb(var(--c-on-secondary) / <alpha-value>)","surface-container-highest":"rgb(var(--c-surface-container-highest) / <alpha-value>)","on-secondary-container":"rgb(var(--c-on-secondary-container) / <alpha-value>)","on-primary-fixed-variant":"rgb(var(--c-on-primary-fixed-variant) / <alpha-value>)","primary":"rgb(var(--c-primary) / <alpha-value>)","surface":"rgb(var(--c-surface) / <alpha-value>)","on-primary-fixed":"rgb(var(--c-on-primary-fixed) / <alpha-value>)","on-error-container":"rgb(var(--c-on-error-container) / <alpha-value>)","inverse-on-surface":"rgb(var(--c-inverse-on-surface) / <alpha-value>)","surface-variant":"rgb(var(--c-surface-variant) / <alpha-value>)","surface-tint":"rgb(var(--c-surface-tint) / <alpha-value>)","surface-container-low":"rgb(var(--c-surface-container-low) / <alpha-value>)","tertiary-container":"rgb(var(--c-tertiary-container) / <alpha-value>)","primary-container":"rgb(var(--c-primary-container) / <alpha-value>)","on-primary-container":"rgb(var(--c-on-primary-container) / <alpha-value>)","on-surface":"rgb(var(--c-on-surface) / <alpha-value>)","error-container":"rgb(var(--c-error-container) / <alpha-value>)","on-surface-variant":"rgb(var(--c-on-surface-variant) / <alpha-value>)","primary-fixed":"rgb(var(--c-primary-fixed) / <alpha-value>)","tertiary-fixed":"rgb(var(--c-tertiary-fixed) / <alpha-value>)","outline":"rgb(var(--c-outline) / <alpha-value>)","surface-container-lowest":"rgb(var(--c-surface-container-lowest) / <alpha-value>)","on-tertiary-container":"rgb(var(--c-on-tertiary-container) / <alpha-value>)","on-tertiary":"rgb(var(--c-on-tertiary) / <alpha-value>)"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-sm":"0.5rem","space-lg":"1.5rem",gutter:"1.5rem","space-xl":"2.5rem","margin-mobile":"1.25rem","space-xs":"0.25rem",margin:"3rem","gutter-mobile":"1rem","space-md":"1rem"},fontFamily:{"headline-lg-mobile":["Playfair Display"],"label-md":["Montserrat"],"body-md":["Montserrat"],"headline-md":["Playfair Display"],display:["Playfair Display"],"body-lg":["Montserrat"],"headline-lg":["Playfair Display"],"headline-sm":["Playfair Display"],"title-md":["Montserrat"],"label-sm":["Montserrat"],"display-mobile":["Playfair Display"]},fontSize:{"headline-lg-mobile":["26px",{lineHeight:"34px",fontWeight:"600"}],"label-md":["13px",{lineHeight:"18px",letterSpacing:"0.04em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"22px",fontWeight:"400"}],"headline-md":["28px",{lineHeight:"36px",fontWeight:"500"}],display:["48px",{lineHeight:"56px",letterSpacing:"-0.01em",fontWeight:"600"}],"body-lg":["16px",{lineHeight:"26px",fontWeight:"400"}],"headline-lg":["36px",{lineHeight:"44px",fontWeight:"600"}],"headline-sm":["22px",{lineHeight:"30px",fontWeight:"500"}],"title-md":["18px",{lineHeight:"26px",letterSpacing:"0.01em",fontWeight:"600"}],"label-sm":["11px",{lineHeight:"16px",letterSpacing:"0.06em",fontWeight:"500"}],"display-mobile":["32px",{lineHeight:"40px",letterSpacing:"-0.01em",fontWeight:"600"}]}}}};</script><style>header nav a{white-space:nowrap}header nav{gap:0!important}header nav a{padding-left:.6rem!important;padding-right:.6rem!important}</style><meta name="description" content="Compre, venda ou alugue imóveis em Igarapava, Rifaina e região com atendimento direto e avaliação técnica. Rafaela Requi, corretora e avaliadora, CRECI 217 650-F."/>
+<meta name="robots" content="index,follow,max-image-preview:large"/>
+<link rel="canonical" href="https://www.rafaelarequiimoveis.com.br/"/>
+<meta name="theme-color" content="#C49A5A"/>
+<link rel="icon" type="image/svg+xml" href="assets/logo_rafaela_preta.svg"/>
+<meta property="og:locale" content="pt_BR"/><meta property="og:site_name" content="Rafaela Requi Imóveis"/>
+<meta property="og:type" content="website"/><meta property="og:title" content="Rafaela Requi – Corretora e Avaliadora de Imóveis em Igarapava"/>
+<meta property="og:description" content="Compre, venda ou alugue imóveis em Igarapava, Rifaina e região com atendimento direto e avaliação técnica. Rafaela Requi, corretora e avaliadora, CRECI 217 650-F."/><meta property="og:url" content="https://www.rafaelarequiimoveis.com.br/"/><meta property="og:image" content="https://www.rafaelarequiimoveis.com.br/assets/real-1-0.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"RealEstateAgent","name":"Rafaela Requi – Corretora e Avaliadora de Imóveis","url":"https://www.rafaelarequiimoveis.com.br/","image":"https://www.rafaelarequiimoveis.com.br/assets/real-1-0.png","logo":"https://www.rafaelarequiimoveis.com.br/assets/logo_rafaela_preta.svg","telephone":"+55 16 99460-2780","email":"contato@rafaelarequiimoveis.com.br","identifier":"CRECI 217 650-F","address":{"@type":"PostalAddress","addressLocality":"Igarapava","addressRegion":"SP","addressCountry":"BR"},"areaServed":[{"@type":"City","name":"Igarapava"},{"@type":"City","name":"Rifaina"},{"@type":"City","name":"Buritizal"},{"@type":"City","name":"Aramina"},{"@type":"City","name":"Pedregulho"}],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"12:00"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Rafaela Requi Imóveis","url":"https://www.rafaelarequiimoveis.com.br/"}</script>
+</head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-inverse-surface text-inverse-on-surface text-label-sm py-2 px-margin-mobile lg:px-margin"><div class="max-w-[1280px] mx-auto flex flex-wrap items-center justify-between gap-y-1 gap-x-4"><div class="flex items-center gap-space-md"><span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px] text-primary-fixed">location_on</span><span>Atuação: Igarapava – SP e Região</span></span><span class="hidden md:inline-block text-secondary">|</span><span class="hidden md:flex items-center gap-1"><span class="material-symbols-outlined text-[15px] text-primary-fixed">verified</span><span>CRECI: 217 650-F</span></span></div><div class="flex items-center gap-space-md ml-auto"><span class="hidden sm:flex items-center gap-1"><span class="material-symbols-outlined text-[15px] text-primary-fixed">schedule</span><span>Seg a Sex: 08h às 18h | Sáb: 08h às 12h</span></span><span class="hidden sm:inline-block text-secondary">|</span><a class="flex items-center gap-1 text-primary-fixed hover:text-white transition-colors" href="tel:16994602780"><span class="material-symbols-outlined text-[15px]">call</span><span>(16) 99460-2780</span></a></div></div></div><div class="bg-surface/95 backdrop-blur-md"><div class="h-20 max-w-[1280px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm shrink-0"><a class="flex items-center gap-3" data-path="inicio" href="index.html"><img alt="Rafaela Requi – Corretora e Avaliadora de Imóveis" class="h-12 w-auto object-contain dark:hidden" src="assets/logo_rafaela_preta.svg"/><img alt="Rafaela Requi – Corretora e Avaliadora de Imóveis" class="h-12 w-auto object-contain hidden dark:block" src="assets/logo_rafaela_branca.svg"/></a></div><nav class="hidden xl:flex items-center gap-1 font-label-md text-label-md" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg"><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors rounded-lg" data-path="inicio" href="index.html">Início</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors rounded-lg" data-path="imoveis" href="imoveis.html">Imóveis</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors rounded-lg" data-path="financiamento" href="financiamento.html">Financiamento</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors rounded-lg" data-path="sobre" href="sobre.html">Sobre</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors rounded-lg" data-path="blog" href="blog.html">Blog</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors rounded-lg" data-path="contato" href="contato.html">Contato</a></nav><div class="flex items-center gap-space-sm shrink-0"><button type="button" id="theme-toggle" aria-pressed="false" aria-label="Ativar tema escuro" title="Alternar tema claro/escuro" class="relative w-10 h-10 shrink-0 rounded-full border border-outline-variant text-on-surface-variant hover:text-primary hover:border-primary hover:bg-surface-container-high transition-colors flex items-center justify-center overflow-hidden"><span class="material-symbols-outlined icon-moon text-[20px]" aria-hidden="true">dark_mode</span><span class="material-symbols-outlined icon-sun text-[20px]" aria-hidden="true">light_mode</span></button><a class="hidden sm:inline-flex items-center gap-2 bg-primary-container hover:bg-primary text-on-primary-container hover:text-on-primary font-label-md text-label-md px-space-md py-2.5 rounded-lg shadow-sm transition-all" href="https://wa.me/5516994602780" rel="noopener noreferrer" target="_blank"><svg class="shrink-0" style="width:19px;height:19px" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zM20.52 3.45A11.8 11.8 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.16-3.48-8.4z"/></svg><span>Fale no WhatsApp</span></a><button aria-label="Menu Principal" class="xl:hidden p-2 rounded-lg text-on-surface hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-2xl">menu</span></button></div></div></div></header><main class="w-full pt-[116px] bg-surface min-h-[calc(100vh-116px)]"><div class="flex flex-col w-full">
+<!-- 1. HERO SECTION -->
+<section class="relative -mt-[116px] w-full min-h-[680px] lg:min-h-[740px] flex items-center justify-center bg-inverse-surface overflow-hidden">
+<!-- Hero Background Image & Atmospheric Scrim -->
+<div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000 scale-105"  style="background-image: url('assets/hero.jpg')">
+</div>
+<!-- Layered scrims for maximum contrast and tactical warmth -->
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface via-inverse-surface/75 to-inverse-surface/40"></div>
+<div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(196,154,90,0.18),transparent_55%)]"></div>
+<div class="relative z-10 w-full max-w-[1280px] mx-auto px-margin-mobile lg:px-margin pt-[140px] pb-space-xl flex flex-col items-center text-center">
+<!-- Tag / Chip -->
+<div class="inline-flex items-center gap-2 bg-surface/15 backdrop-blur-md px-4 py-1.5 rounded-full mb-6">
+<span class="material-symbols-outlined text-[16px] text-primary-fixed">verified</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-inverse-on-surface">Atendimento Próximo &amp; Avaliação Imobiliária Especializada</span>
+</div>
+<!-- Main Headline -->
+<h1 id="page-h1" class="font-display text-display-mobile lg:text-display text-white max-w-4xl tracking-tight leading-tight mb-5">
+        Encontre o imóvel certo para a sua próxima fase em <span class="italic text-primary-fixed font-normal">Igarapava</span> e região
+      </h1>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-secondary-fixed max-w-2xl mx-auto mb-10 text-balance">
+        Assessoria imobiliária humanizada, transparente e com a segurança técnica de quem também é avaliadora credenciada. Atuação com domínio em Igarapava, Rifaina, Buritizal, Aramina e Pedregulho.
+      </p>
+<!-- Trust Badges Under Hero Header -->
+<div class="flex flex-wrap items-center justify-center gap-6 font-label-md text-label-md text-surface-container-high/90">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">verified_user</span>
+<span>CRECI 217 650-F</span>
+</div>
+<span class="text-surface-container-highest/40">•</span>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">gavel</span>
+<span>Perita Avaliadora Imobiliária</span>
+</div>
+<span class="text-surface-container-highest/40">•</span>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">support_agent</span>
+<span>Atendimento Direto &amp; Consultivo</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. SEARCH BAR OVERLAP -->
+<div class="w-full max-w-[1280px] mx-auto px-margin-mobile lg:px-margin -mt-10 lg:-mt-14 relative z-20">
+<div class="bg-surface-container-lowest rounded-xl shadow-xl p-space-md lg:p-space-lg">
+<!-- Tabs Comprar / Alugar -->
+<div class="flex items-center gap-2 mb-4">
+<button class="px-5 py-2 rounded-lg font-label-md text-label-md bg-primary text-on-primary shadow-sm transition-all duration-200" id="tab-comprar" onclick="switchSearchTab('comprar')">
+          Comprar
+        </button>
+<button class="px-5 py-2 rounded-lg font-label-md text-label-md bg-surface-container text-on-surface-variant hover:text-on-surface transition-all duration-200" id="tab-alugar" onclick="switchSearchTab('alugar')">
+          Alugar
+        </button>
+<span class="ml-auto hidden md:inline-flex items-center gap-1.5 font-label-sm text-label-sm text-secondary">
+<span class="material-symbols-outlined text-[16px] text-primary">pin_drop</span>
+          Igarapava • Rifaina • Região dos Lagos
+        </span>
+</div>
+<!-- Integrated Form Fields -->
+<form class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-3" id="home-search">
+<!-- Tipo de Imóvel -->
+<div class="lg:col-span-3 flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary">home</span> Tipo de Imóvel
+          </label>
+<div class="relative">
+<select name="tipo" class="w-full h-11 px-3.5 bg-surface-container-low text-on-surface font-body-md text-body-md rounded-lg appearance-none cursor-pointer focus:outline-none focus:bg-surface-container-lowest">
+<option value="">Todos os tipos</option>
+<option value="casa">Casa Residencial</option>
+<option value="apartamento">Apartamento</option>
+<option value="terreno">Terreno / Lote</option>
+<option value="chacara">Chácara &amp; Sítio</option>
+<option value="rancho">Rancho em Rifaina</option>
+<option value="comercial">Ponto Comercial</option>
+</select>
+<span class="material-symbols-outlined text-[18px] text-secondary absolute right-3 top-3 pointer-events-none">expand_more</span>
+</div>
+</div>
+<!-- Cidade / Bairro -->
+<div class="lg:col-span-3 flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary">location_city</span> Localização
+          </label>
+<div class="relative">
+<select name="local" class="w-full h-11 px-3.5 bg-surface-container-low text-on-surface font-body-md text-body-md rounded-lg appearance-none cursor-pointer focus:outline-none focus:bg-surface-container-lowest">
+<option value="">Todas as localizações</option>
+<option value="ig-centro">Igarapava – Centro</option>
+<option value="ig-planalto">Igarapava – Res. Planalto</option>
+<option value="ig-nova">Igarapava – Jd. Nova Igarapava</option>
+<option value="rifaina">Rifaina – Enseada &amp; Marinas</option>
+<option value="buritizal">Buritizal – Centro / Expansão</option>
+<option value="pedregulho">Pedregulho – Residencial</option>
+<option value="aramina">Aramina – Geral</option>
+</select>
+<span class="material-symbols-outlined text-[18px] text-secondary absolute right-3 top-3 pointer-events-none">expand_more</span>
+</div>
+</div>
+<!-- Faixa de Preço -->
+<div class="lg:col-span-2 flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary">payments</span> Faixa de Preço
+          </label>
+<div class="relative">
+<select name="preco" class="w-full h-11 px-3 bg-surface-container-low text-on-surface font-body-md text-body-md rounded-lg appearance-none cursor-pointer focus:outline-none focus:bg-surface-container-lowest">
+<option value="">Qualquer valor</option>
+<option value="250">Até R$ 250 mil</option>
+<option value="500">R$ 250k - R$ 500k</option>
+<option value="1000">R$ 500k - R$ 1 Milhão</option>
+<option value="acima">Acima de R$ 1 Milhão</option>
+</select>
+<span class="material-symbols-outlined text-[18px] text-secondary absolute right-2.5 top-3 pointer-events-none">expand_more</span>
+</div>
+</div>
+<!-- Quartos -->
+<div class="lg:col-span-2 flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary">bed</span> Quartos
+          </label>
+<div class="relative">
+<select name="quartos" class="w-full h-11 px-3 bg-surface-container-low text-on-surface font-body-md text-body-md rounded-lg appearance-none cursor-pointer focus:outline-none focus:bg-surface-container-lowest">
+<option value="">Qualquer</option>
+<option value="1">1+ quarto</option>
+<option value="2">2+ quartos</option>
+<option value="3">3+ quartos</option>
+<option value="4">4+ quartos</option>
+</select>
+<span class="material-symbols-outlined text-[18px] text-secondary absolute right-2.5 top-3 pointer-events-none">expand_more</span>
+</div>
+</div>
+<!-- Submit Button -->
+<div class="lg:col-span-2 flex flex-col justify-end mt-1">
+<button class="w-full h-11 bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md rounded-lg flex items-center justify-center gap-2 shadow-sm transition-all duration-200" type="submit">
+<span class="material-symbols-outlined text-[20px]">search</span>
+<span>Buscar</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+<!-- 3. PILARES / DIFERENCIAIS -->
+<section class="w-full max-w-[1280px] mx-auto px-margin-mobile lg:px-margin mt-20">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Nossa Conduta Profissional</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-2 tracking-tight">O que guia cada negociação</h2>
+<div class="w-12 h-0.5 bg-primary-container mx-auto mt-3 rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Diferencial 1 -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col transition-all duration-300 hover:shadow-md hover:-translate-y-1">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-[26px]">handshake</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Atendimento Personalizado</h3>
+<p class="font-body-md text-body-md text-secondary">
+          Ouvimos suas reais necessidades sem pressão comercial. Cada família e investidor tem tempo e critérios respeitados.
+        </p>
+</div>
+<!-- Diferencial 2 -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col transition-all duration-300 hover:shadow-md hover:-translate-y-1">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-[26px]">assignment_turned_in</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Avaliação Técnica</h3>
+<p class="font-body-md text-body-md text-secondary">
+          Laudos precisos e fundamentados pelo CRECI para o justo valor de mercado, resguardando seu patrimônio de ponta a ponta.
+        </p>
+</div>
+<!-- Diferencial 3 -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col transition-all duration-300 hover:shadow-md hover:-translate-y-1">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-[26px]">explore</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Conhecimento Regional</h3>
+<p class="font-body-md text-body-md text-secondary">
+          Vivência local e domínio das melhores oportunidades em Igarapava, orla de Rifaina e cidades vizinhas do interior paulista.
+        </p>
+</div>
+<!-- Diferencial 4 -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col transition-all duration-300 hover:shadow-md hover:-translate-y-1">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-[26px]">format_image_left</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Segurança Jurídica</h3>
+<p class="font-body-md text-body-md text-secondary">
+          Suporte minucioso na conferência documental, certidões e contratos do primeiro contato até o pós-entrega de chaves.
+        </p>
+</div>
+</div>
+</section>
+<!-- 4. IMÓVEIS EM DESTAQUE -->
+<section class="w-full max-w-[1280px] mx-auto px-margin-mobile lg:px-margin mt-24">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Seleção Especial</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1 tracking-tight">Imóveis em Destaque</h2>
+<p class="font-body-md text-body-md text-secondary mt-1">Oportunidades verificadas e prontas para negociação imediata.</p>
+</div>
+<a class="inline-flex items-center gap-2 font-label-md text-label-md text-primary hover:text-on-surface transition-colors self-start md:self-auto" data-path="imoveis" href="imoveis.html">
+<span>Ver catálogo completo</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<!-- Grid de 6 Imóveis -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Imóvel 1 -->
+<article class="relative bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col group">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container">
+<img alt="Casa com Área Gourmet — Porto Feliz – Igarapava/SP" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 img-stitch" src="assets/img-2a93b4544c.jpg"/><img alt="Casa com Área Gourmet — Porto Feliz – Igarapava/SP (foto real)" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 img-real" src="assets/real-1-0.png"/>
+<span class="absolute top-3 right-3 bg-inverse-surface/85 backdrop-blur-sm text-white font-label-sm text-label-sm px-2.5 py-1 rounded">Porto Feliz</span>
+<span class="absolute top-3 left-3 bg-primary text-on-primary font-label-sm text-label-sm px-2.5 py-1 rounded uppercase tracking-wider font-semibold">Venda</span>
+<div class="absolute bottom-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm text-on-surface font-title-md text-title-md px-3 py-1.5 rounded shadow-sm">Consultar valor</div>
+</div>
+<div class="p-space-md flex flex-col flex-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface line-clamp-1 group-hover:text-primary transition-colors">Casa com Área Gourmet — Porto Feliz</h3>
+<p class="font-body-md text-body-md text-secondary line-clamp-2 mt-1 mb-4">Casa aconchegante e bem localizada no Porto Feliz, com 2 dormitórios (1 suíte), garagem coberta e área gourmet.</p>
+<div class="grid grid-cols-3 gap-1 py-3 bg-surface-container-low rounded-lg text-center mb-4 mt-auto"><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">bed</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">2 Qts</span></div><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">directions_car</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Garagem</span></div><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">outdoor_grill</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Gourmet</span></div></div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary font-label-md text-label-md text-center transition-all after:absolute after:inset-0" data-path="imoveis" href="imovel-casa-area-gourmet-porto-feliz-igarapava.html" aria-label="Ver detalhes: Casa com Área Gourmet — Porto Feliz">Ver detalhes do imóvel</a>
+</div></article>
+<!-- Imóvel 2: Rancho Rifaina -->
+<article class="relative bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col group">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container">
+<img alt="Casa Alto Padrão — Vila Marilene – Igarapava/SP" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 img-stitch" src="assets/img-60657f2939.jpg"/><img alt="Casa Alto Padrão — Vila Marilene – Igarapava/SP (foto real)" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 img-real" src="assets/real-2-0.png"/>
+<span class="absolute top-3 right-3 bg-inverse-surface/85 backdrop-blur-sm text-white font-label-sm text-label-sm px-2.5 py-1 rounded">Vila Marilene</span>
+<span class="absolute top-3 left-3 bg-primary text-on-primary font-label-sm text-label-sm px-2.5 py-1 rounded uppercase tracking-wider font-semibold">Venda</span>
+<div class="absolute bottom-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm text-on-surface font-title-md text-title-md px-3 py-1.5 rounded shadow-sm">Consultar valor</div>
+</div>
+<div class="p-space-md flex flex-col flex-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface line-clamp-1 group-hover:text-primary transition-colors">Casa Alto Padrão — Vila Marilene</h3>
+<p class="font-body-md text-body-md text-secondary line-clamp-2 mt-1 mb-4">Casa de alto padrão na Vila Marilene, com 2 dormitórios (1 suíte), garagem coberta e acabamento de qualidade.</p>
+<div class="grid grid-cols-3 gap-1 py-3 bg-surface-container-low rounded-lg text-center mb-4 mt-auto"><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">bed</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">2 Qts</span></div><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">directions_car</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Garagem</span></div><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">workspace_premium</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Alto padrão</span></div></div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary font-label-md text-label-md text-center transition-all after:absolute after:inset-0" data-path="imoveis" href="imovel-casa-alto-padrao-vila-marilene-igarapava.html" aria-label="Ver detalhes: Casa Alto Padrão — Vila Marilene">Ver detalhes do imóvel</a>
+</div></article>
+<!-- Imóvel 3: Casa Centro Igarapava -->
+<article class="relative bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col group">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container">
+<img alt="Casa — Jardim Bothânico – Igarapava/SP" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 img-stitch" src="assets/img-cab99f8623.jpg"/><img alt="Casa — Jardim Bothânico – Igarapava/SP (foto real)" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 img-real" src="assets/real-3-0.png"/>
+<span class="absolute top-3 right-3 bg-inverse-surface/85 backdrop-blur-sm text-white font-label-sm text-label-sm px-2.5 py-1 rounded">Jardim Bothânico</span>
+<span class="absolute top-3 left-3 bg-primary text-on-primary font-label-sm text-label-sm px-2.5 py-1 rounded uppercase tracking-wider font-semibold">Venda</span>
+<div class="absolute bottom-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm text-on-surface font-title-md text-title-md px-3 py-1.5 rounded shadow-sm">Consultar valor</div>
+</div>
+<div class="p-space-md flex flex-col flex-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface line-clamp-1 group-hover:text-primary transition-colors">Casa — Jardim Bothânico</h3>
+<p class="font-body-md text-body-md text-secondary line-clamp-2 mt-1 mb-4">Casa residencial bem localizada no Jardim Bothânico, pensada para o conforto do dia a dia e com espaço para a família crescer.</p>
+<div class="grid grid-cols-2 gap-1 py-3 bg-surface-container-low rounded-lg text-center mb-4 mt-auto"><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">home</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Casa</span></div><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">location_city</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Bem localizada</span></div></div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary font-label-md text-label-md text-center transition-all after:absolute after:inset-0" data-path="imoveis" href="imovel-casa-jardim-bothanico-igarapava.html" aria-label="Ver detalhes: Casa — Jardim Bothânico">Ver detalhes do imóvel</a>
+</div></article>
+<!-- Imóvel 4: Terreno Nova Igarapava -->
+<article class="relative bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col group">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container">
+<img alt="Casa Moderna — Jardim Portinari – Igarapava/SP" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 img-stitch" src="assets/img-85854d7fae.jpg"/><img alt="Casa Moderna — Jardim Portinari – Igarapava/SP (foto real)" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 img-real" src="assets/real-4-0.png"/>
+<span class="absolute top-3 right-3 bg-inverse-surface/85 backdrop-blur-sm text-white font-label-sm text-label-sm px-2.5 py-1 rounded">Jardim Portinari</span>
+<span class="absolute top-3 left-3 bg-primary text-on-primary font-label-sm text-label-sm px-2.5 py-1 rounded uppercase tracking-wider font-semibold">Venda</span>
+<div class="absolute bottom-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm text-on-surface font-title-md text-title-md px-3 py-1.5 rounded shadow-sm">Consultar valor</div>
+</div>
+<div class="p-space-md flex flex-col flex-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface line-clamp-1 group-hover:text-primary transition-colors">Casa Moderna — Jardim Portinari</h3>
+<p class="font-body-md text-body-md text-secondary line-clamp-2 mt-1 mb-4">Casa moderna e bem planejada no Jardim Portinari, com 2 dormitórios (1 suíte), cozinha com ilha integrada e garagem coberta.</p>
+<div class="grid grid-cols-3 gap-1 py-3 bg-surface-container-low rounded-lg text-center mb-4 mt-auto"><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">bed</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">2 Qts</span></div><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">kitchen</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Cozinha</span></div><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">directions_car</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Garagem</span></div></div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary font-label-md text-label-md text-center transition-all after:absolute after:inset-0" data-path="imoveis" href="imovel-casa-moderna-jardim-portinari-igarapava.html" aria-label="Ver detalhes: Casa Moderna — Jardim Portinari">Ver detalhes do imóvel</a>
+</div></article>
+<!-- Imóvel 5: Chácara Lazer -->
+<article class="relative bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col group">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container">
+<img alt="Casa com Terreno Amplo — Kazuto Yatsuda – Igarapava/SP" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 img-stitch" src="assets/img-a526eb123f.jpg"/><img alt="Casa com Terreno Amplo — Kazuto Yatsuda – Igarapava/SP (foto real)" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 img-real" src="assets/real-5-0.png"/>
+<span class="absolute top-3 right-3 bg-inverse-surface/85 backdrop-blur-sm text-white font-label-sm text-label-sm px-2.5 py-1 rounded">Kazuto Yatsuda</span>
+<span class="absolute top-3 left-3 bg-primary text-on-primary font-label-sm text-label-sm px-2.5 py-1 rounded uppercase tracking-wider font-semibold">Venda</span>
+<div class="absolute bottom-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm text-on-surface font-title-md text-title-md px-3 py-1.5 rounded shadow-sm">Consultar valor</div>
+</div>
+<div class="p-space-md flex flex-col flex-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface line-clamp-1 group-hover:text-primary transition-colors">Casa com Terreno Amplo — Kazuto Yatsuda</h3>
+<p class="font-body-md text-body-md text-secondary line-clamp-2 mt-1 mb-4">Casa com 3 dormitórios (1 suíte) em terreno de 1.932,57 m². Aceita financiamento bancário e permuta.</p>
+<div class="grid grid-cols-4 gap-1 py-3 bg-surface-container-low rounded-lg text-center mb-4 mt-auto"><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">bed</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">3 Qts</span></div><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">landscape</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">1.932,57 m²</span></div><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">swap_horiz</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Permuta</span></div><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">account_balance</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Financiamento</span></div></div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary font-label-md text-label-md text-center transition-all after:absolute after:inset-0" data-path="imoveis" href="imovel-casa-terreno-amplo-kazuto-yatsuda-igarapava.html" aria-label="Ver detalhes: Casa com Terreno Amplo — Kazuto Yatsuda">Ver detalhes do imóvel</a>
+</div></article>
+<!-- Imóvel 6: Comercial Igarapava -->
+<article class="relative bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col group">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container">
+<img alt="Casa de Alto Padrão — Condomínio Náutico – Igarapava/SP" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 img-stitch" src="assets/img-22ff76f200.jpg"/><img alt="Casa de Alto Padrão — Condomínio Náutico – Igarapava/SP (foto real)" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 img-real" src="assets/real-6-0.png"/>
+<span class="absolute top-3 right-3 bg-inverse-surface/85 backdrop-blur-sm text-white font-label-sm text-label-sm px-2.5 py-1 rounded">Cond. Náutico</span>
+<span class="absolute top-3 left-3 bg-primary text-on-primary font-label-sm text-label-sm px-2.5 py-1 rounded uppercase tracking-wider font-semibold">Venda</span>
+<div class="absolute bottom-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm text-on-surface font-title-md text-title-md px-3 py-1.5 rounded shadow-sm">Consultar valor</div>
+</div>
+<div class="p-space-md flex flex-col flex-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface line-clamp-1 group-hover:text-primary transition-colors">Casa de Alto Padrão — Condomínio Náutico</h3>
+<p class="font-body-md text-body-md text-secondary line-clamp-2 mt-1 mb-4">Residência de alto padrão no Condomínio Náutico Águas da Ribalta: 4 dormitórios com ar-condicionado, suíte master com closet, área gourmet e piscina.</p>
+<div class="grid grid-cols-4 gap-1 py-3 bg-surface-container-low rounded-lg text-center mb-4 mt-auto"><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">bed</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">4 Qts</span></div><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">pool</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Piscina</span></div><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">outdoor_grill</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Gourmet</span></div><div><span class="material-symbols-outlined text-[18px] text-primary block mx-auto">sailing</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Náutico</span></div></div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary font-label-md text-label-md text-center transition-all after:absolute after:inset-0" data-path="imoveis" href="imovel-casa-alto-padrao-condominio-nautico-aguas-da-ribalta-igarapava.html" aria-label="Ver detalhes: Casa de Alto Padrão — Condomínio Náutico">Ver detalhes do imóvel</a>
+</div></article>
+</div>
+</section>
+<!-- 5. BUSCA POR CATEGORIA VISUAL -->
+<section class="w-full bg-surface-container-low mt-28 py-20">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Navegue com Facilidade</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-2 tracking-tight">O que você está procurando?</h2>
+<p class="font-body-md text-body-md text-secondary mt-1">Explore os perfis de propriedades mais buscados na nossa região.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+<!-- Cat 1 -->
+<a class="group relative rounded-xl overflow-hidden aspect-[4/5] shadow-sm hover:shadow-md transition-all flex flex-col justify-end p-4" data-path="imoveis" href="imoveis.html">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-500"  style="background-image: url('assets/img-ed3df04a72.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-inverse-surface/40 to-transparent"></div>
+<div class="relative z-10 text-white">
+<span class="material-symbols-outlined text-[24px] text-primary-fixed mb-1">cottage</span>
+<h3 class="font-title-md text-title-md font-semibold">Casas</h3>
+<span class="font-label-sm text-label-sm text-secondary-fixed">Ver opções →</span>
+</div>
+</a>
+<!-- Cat 2 -->
+<a class="group relative rounded-xl overflow-hidden aspect-[4/5] shadow-sm hover:shadow-md transition-all flex flex-col justify-end p-4" data-path="imoveis" href="imoveis.html">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-500"  style="background-image: url('assets/img-8d655392a5.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-inverse-surface/40 to-transparent"></div>
+<div class="relative z-10 text-white">
+<span class="material-symbols-outlined text-[24px] text-primary-fixed mb-1">apartment</span>
+<h3 class="font-title-md text-title-md font-semibold">Apartamentos</h3>
+<span class="font-label-sm text-label-sm text-secondary-fixed">Ver opções →</span>
+</div>
+</a>
+<!-- Cat 3 -->
+<a class="group relative rounded-xl overflow-hidden aspect-[4/5] shadow-sm hover:shadow-md transition-all flex flex-col justify-end p-4" data-path="imoveis" href="imoveis.html">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-500"  style="background-image: url('assets/img-1188a5a95a.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-inverse-surface/40 to-transparent"></div>
+<div class="relative z-10 text-white">
+<span class="material-symbols-outlined text-[24px] text-primary-fixed mb-1">landscape</span>
+<h3 class="font-title-md text-title-md font-semibold">Terrenos</h3>
+<span class="font-label-sm text-label-sm text-secondary-fixed">Ver opções →</span>
+</div>
+</a>
+<!-- Cat 4 -->
+<a class="group relative rounded-xl overflow-hidden aspect-[4/5] shadow-sm hover:shadow-md transition-all flex flex-col justify-end p-4" data-path="imoveis" href="imoveis.html">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-500"  style="background-image: url('assets/img-3d1c4a2155.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-inverse-surface/40 to-transparent"></div>
+<div class="relative z-10 text-white">
+<span class="material-symbols-outlined text-[24px] text-primary-fixed mb-1">nature_people</span>
+<h3 class="font-title-md text-title-md font-semibold">Chácaras</h3>
+<span class="font-label-sm text-label-sm text-secondary-fixed">Ver opções →</span>
+</div>
+</a>
+<!-- Cat 5: Ranchos Rifaina -->
+<a class="group relative rounded-xl overflow-hidden aspect-[4/5] shadow-sm hover:shadow-md transition-all flex flex-col justify-end p-4" data-path="imoveis" href="imoveis.html">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-500"  style="background-image: url('assets/img-76a811fd80.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-inverse-surface/40 to-transparent"></div>
+<div class="relative z-10 text-white">
+<span class="material-symbols-outlined text-[24px] text-primary-fixed mb-1">sailing</span>
+<h3 class="font-title-md text-title-md font-semibold">Ranchos Rifaina</h3>
+<span class="font-label-sm text-label-sm text-secondary-fixed">Ver opções →</span>
+</div>
+</a>
+<!-- Cat 6: Comerciais -->
+<a class="group relative rounded-xl overflow-hidden aspect-[4/5] shadow-sm hover:shadow-md transition-all flex flex-col justify-end p-4" data-path="imoveis" href="imoveis.html">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-500"  style="background-image: url('assets/img-205d3ba431.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-inverse-surface/40 to-transparent"></div>
+<div class="relative z-10 text-white">
+<span class="material-symbols-outlined text-[24px] text-primary-fixed mb-1">store</span>
+<h3 class="font-title-md text-title-md font-semibold">Comerciais</h3>
+<span class="font-label-sm text-label-sm text-secondary-fixed">Ver opções →</span>
+</div>
+</a>
+</div>
+</div>
+</section>
+<!-- 6. SEÇÃO HUMANIZADA: CONHEÇA A RAFAELA -->
+<section class="w-full max-w-[1280px] mx-auto px-margin-mobile lg:px-margin py-24">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Portrait Column with Bespoke Offset Gold Accent -->
+<div class="lg:col-span-5 flex justify-center">
+<div class="relative w-full max-w-[380px]">
+<!-- Decorative Warm Backing Block -->
+<div class="absolute -inset-4 bg-surface-container rounded-2xl -rotate-2"></div>
+<div class="relative rounded-2xl overflow-hidden shadow-xl bg-surface-container-high aspect-square">
+<img alt="Rafaela Requi – Corretora e Avaliadora de Imóveis" class="w-full h-full object-cover" src="assets/img-50197ec136.jpg"/>
+</div>
+<!-- Floating Badge -->
+<div class="absolute -bottom-4 -right-4 bg-inverse-surface text-inverse-on-surface px-4 py-2.5 rounded-xl shadow-lg flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[20px]">verified</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-white font-bold leading-tight">CRECI 217 650-F</span>
+<span class="font-label-sm text-label-sm text-secondary-fixed leading-tight">Avaliadora Certificada</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Textual Column -->
+<div class="lg:col-span-7 flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Atendimento Próximo &amp; Humanizado</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-2 mb-6 tracking-tight">
+          Olá, sou a Rafaela Requi. Prazer em receber você!
+        </h2>
+<p class="font-body-lg text-body-lg text-secondary mb-4 leading-relaxed">
+          Com raízes profundas em Igarapava e vivência diária em toda a região dos lagos do Rio Grande, minha missão vai além de abrir portas e redigir contratos. Atuo como conselheira e parceira de confiança para proteger o seu patrimônio financeiro e honrar a história da sua família.
+        </p>
+<p class="font-body-md text-body-md text-secondary mb-6 leading-relaxed">
+          Como corretora e perita avaliadora de imóveis, trago o olhar técnico e mercadológico necessário para que você nunca pague a mais ao comprar, nem venda por menos do que seu bem realmente vale.
+        </p>
+<!-- Blockquote Callout -->
+<blockquote class="bg-surface-container-low p-space-md lg:p-space-lg rounded-xl mb-8 relative">
+<span class="material-symbols-outlined text-[32px] text-primary-container/40 absolute top-3 left-3 select-none">format_quote</span>
+<p class="font-headline-sm text-headline-sm italic text-on-surface pl-8 font-normal">
+            “Mais do que transações imobiliárias, construímos relações de confiança para a vida toda.”
+          </p>
+</blockquote>
+<!-- Action Links -->
+<div class="flex flex-wrap items-center gap-4">
+<a class="px-6 py-3 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-label-md text-label-md transition-colors" data-path="sobre" href="sobre.html">
+            Conheça minha trajetória
+          </a>
+<a class="px-6 py-3 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md flex items-center gap-2 shadow-sm transition-colors" href="https://wa.me/5516994602780" rel="noopener noreferrer" target="_blank">
+<svg class="shrink-0" style="width:19px;height:19px" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zM20.52 3.45A11.8 11.8 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.16-3.48-8.4z"/></svg>
+<span>Conversar diretamente comigo</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. BLOCO DESTAQUE: AVALIAÇÃO DE IMÓVEIS (GRAFITE PROFUNDO) -->
+<section class="w-full bg-inverse-surface text-inverse-on-surface py-20 relative overflow-hidden">
+<!-- Subtle Architectural Gables / Watermark in Background -->
+<div class="absolute -right-16 -bottom-16 opacity-5 pointer-events-none text-white">
+<span class="material-symbols-outlined text-[320px]">architecture</span>
+</div>
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<div class="lg:col-span-8 flex flex-col">
+<div class="inline-flex items-center gap-2 text-primary-fixed mb-3">
+<span class="material-symbols-outlined text-[18px]">gavel</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest">Segurança Pericial &amp; Laudos Oficiais</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-white mb-4 tracking-tight leading-tight">
+            Quanto vale o seu imóvel? <br/>
+<span class="italic text-primary-fixed font-normal">Avaliação técnica e mercadológica segura.</span>
+</h2>
+<p class="font-body-lg text-body-lg text-secondary-fixed max-w-2xl mb-6">
+            Uma avaliação errada pode significar patrimônio encalhado por anos ou prejuízo irreparável na venda. Realizamos pareceres técnicos fundamentados para:
+          </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
+<div class="flex items-center gap-2.5 text-white font-label-md text-label-md">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">check_circle</span>
+<span>Determinação de preço justo de venda</span>
+</div>
+<div class="flex items-center gap-2.5 text-white font-label-md text-label-md">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">check_circle</span>
+<span>Inventários e partilhas familiares</span>
+</div>
+<div class="flex items-center gap-2.5 text-white font-label-md text-label-md">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">check_circle</span>
+<span>Garantias bancárias e financiamentos</span>
+</div>
+<div class="flex items-center gap-2.5 text-white font-label-md text-label-md">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">check_circle</span>
+<span>Demandas judiciais ou extrajudiciais</span>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-4">
+<a class="px-8 py-3.5 rounded-lg bg-primary-container hover:bg-primary text-on-primary-container hover:text-on-primary font-label-md text-label-md flex items-center gap-2 transition-all shadow-md" data-path="avaliacao-de-imoveis" href="avaliacao.html">
+<span class="material-symbols-outlined text-[20px]">assignment</span>
+<span>Solicitar Avaliação Técnica</span>
+</a>
+<span class="font-label-sm text-label-sm text-secondary-fixed">
+              CRECI 217 650-F • Laudo em conformidade com normas ABNT
+            </span>
+</div>
+</div>
+<div class="lg:col-span-4 bg-surface-container-high/10 rounded-2xl p-space-lg flex flex-col gap-4 backdrop-blur-sm">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container">
+<span class="material-symbols-outlined text-[20px]">calculate</span>
+</div>
+<h3 class="font-title-md text-title-md text-white">Método Comparativo</h3>
+</div>
+<p class="font-body-md text-body-md text-secondary-fixed">
+            Análise criteriosa de amostras reais do mercado de Igarapava, fatores de valorização da vizinhança, estado construtivo e viabilidade de liquidez.
+          </p>
+<div class="pt-2 text-right">
+<span class="text-primary-fixed font-label-sm text-label-sm flex items-center justify-end gap-1">
+              Atendimento ágil e confidencial
+              <span class="material-symbols-outlined text-[16px]">lock</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. COMO FUNCIONA (JORNADA EM 4 PASSOS) -->
+<section class="w-full max-w-[1280px] mx-auto px-margin-mobile lg:px-margin py-24">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Passo a Passo Simples</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-2 tracking-tight">Como é a nossa jornada juntos</h2>
+<p class="font-body-md text-body-md text-secondary mt-1">Processos claros para que você sinta segurança do início ao fim.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter relative">
+<!-- Passo 01 -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col relative group hover:bg-surface-container transition-colors">
+<span class="font-headline-lg text-display text-primary-container/25 font-bold leading-none mb-3">01</span>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Entendimento do Perfil</h3>
+<p class="font-body-md text-body-md text-secondary">
+          Conversamos em profundidade para compreender seu momento de vida, preferências de bairro, orçamento e expectativas essenciais.
+        </p>
+</div>
+<!-- Passo 02 -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col relative group hover:bg-surface-container transition-colors">
+<span class="font-headline-lg text-display text-primary-container/25 font-bold leading-none mb-3">02</span>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Curadoria e Visitas</h3>
+<p class="font-body-md text-body-md text-secondary">
+          Selecionamos apenas opções alinhadas, sem perda de tempo. Agendamos e acompanhamos as visitas com olhar técnico analítico.
+        </p>
+</div>
+<!-- Passo 03 -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col relative group hover:bg-surface-container transition-colors">
+<span class="font-headline-lg text-display text-primary-container/25 font-bold leading-none mb-3">03</span>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Análise Documental</h3>
+<p class="font-body-md text-body-md text-secondary">
+          Checagem minuciosa de certidões, registro de imóveis, quitação tributária e elaboração de contratos transparentes e blindados.
+        </p>
+</div>
+<!-- Passo 04 -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col relative group hover:bg-surface-container transition-colors">
+<span class="font-headline-lg text-display text-primary-container/25 font-bold leading-none mb-3">04</span>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Chaves na Mão</h3>
+<p class="font-body-md text-body-md text-secondary">
+          Apoio presencial na assinatura, encaminhamento em cartório, simulação e vistoria final para entrega serena do imóvel.
+        </p>
+</div>
+</div>
+</section>
+<!-- 9. DEPOIMENTOS REAIS -->
+<section id="avaliacoes" class="w-full bg-surface-container-low py-20">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-10">
+<div><span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Histórias Compartilhadas</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-2 tracking-tight">Avaliações no Google</h2>
+<p class="font-body-md text-body-md text-secondary mt-1">O que dizem os clientes que já confiaram na Rafaela.</p></div>
+<div class="flex items-center gap-4 bg-surface-container-lowest rounded-2xl px-5 py-4 shadow-sm border border-outline-variant/40 self-start md:self-auto">
+<svg class="shrink-0" width="34" height="34" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+<div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-display text-[34px] leading-none text-on-surface font-semibold">5,0</span><span class="flex items-center gap-0.5" role="img" aria-label="Nota 5.0 de 5"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg></span></div>
+<span class="font-label-sm text-label-sm text-secondary mt-1">Avaliações de clientes no Google</span></div></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<article class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-4 border border-outline-variant/40">
+<div class="flex items-center gap-3"><div class="w-11 h-11 rounded-full flex items-center justify-center font-semibold text-white text-[17px] shrink-0" style="background:#1a73e8" aria-hidden="true">MC</div>
+<div class="flex flex-col min-w-0"><span class="font-title-md text-[15px] text-on-surface font-semibold truncate">Mariana &amp; Carlos</span><span class="font-label-sm text-label-sm text-secondary">há 2 meses • no Google</span></div>
+<span class="ml-auto self-start"><svg class="shrink-0" width="20" height="20" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg></span></div>
+<div class="flex items-center gap-0.5" role="img" aria-label="5 de 5 estrelas"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg></div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">Estávamos inseguros quanto ao valor do terreno que herdamos em Igarapava. A Rafaela realizou um laudo técnico irretocável que nos permitiu vender de forma rápida e com valor extremamente justo. Atendimento nota 10.</p></article>
+<article class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-4 border border-outline-variant/40">
+<div class="flex items-center gap-3"><div class="w-11 h-11 rounded-full flex items-center justify-center font-semibold text-white text-[17px] shrink-0" style="background:#188038" aria-hidden="true">RM</div>
+<div class="flex flex-col min-w-0"><span class="font-title-md text-[15px] text-on-surface font-semibold truncate">Roberto Mendonça</span><span class="font-label-sm text-label-sm text-secondary">há 4 meses • no Google</span></div>
+<span class="ml-auto self-start"><svg class="shrink-0" width="20" height="20" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg></span></div>
+<div class="flex items-center gap-0.5" role="img" aria-label="5 de 5 estrelas"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg></div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">Comprei meu rancho em Rifaina com a Rafaela. Ela cuidou de todas as certidões com os órgãos ambientais e cartório. Uma tranquilidade que pouquíssimos corretores conseguem oferecer no mercado.</p></article>
+<article class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-4 border border-outline-variant/40">
+<div class="flex items-center gap-3"><div class="w-11 h-11 rounded-full flex items-center justify-center font-semibold text-white text-[17px] shrink-0" style="background:#a142f4" aria-hidden="true">CS</div>
+<div class="flex flex-col min-w-0"><span class="font-title-md text-[15px] text-on-surface font-semibold truncate">Dra. Claudia Santos</span><span class="font-label-sm text-label-sm text-secondary">há 5 meses • no Google</span></div>
+<span class="ml-auto self-start"><svg class="shrink-0" width="20" height="20" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg></span></div>
+<div class="flex items-center gap-0.5" role="img" aria-label="5 de 5 estrelas"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg></div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">A postura humana da Rafaela me encantou. Ela escutou o que eu precisava para a minha clínica, achou um imóvel ótimo e intermediou com elegância a negociação do aluguel comercial. Recomendo de olhos fechados.</p></article>
+</div>
+<div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+<a class="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-primary-container text-on-primary-container hover:bg-primary hover:text-on-primary font-label-md text-label-md font-semibold shadow-md hover:shadow-lg transition-all w-full sm:w-auto" href="https://www.google.com/search?q=Rafaela+Requi+Corretora+de+Im%C3%B3veis+Igarapava" target="_blank" rel="noopener noreferrer"><span class="w-7 h-7 rounded-full bg-white flex items-center justify-center"><svg class="shrink-0" width="18" height="18" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg></span><span class="text-[15px]">Avaliar no Google</span><span class="flex items-center gap-0.5"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" fill="#FBBC04" class=""><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg></span></a>
+<a class="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl border-[1.5px] border-primary text-primary hover:bg-primary/10 font-label-md text-label-md font-semibold transition-all w-full sm:w-auto" href="https://www.google.com/maps/search/?api=1&query=Rafaela+Requi+Corretora+de+Im%C3%B3veis+Igarapava+SP" target="_blank" rel="noopener noreferrer"><span>Ver todas as avaliações</span><span class="material-symbols-outlined text-[18px]">open_in_new</span></a>
+</div>
+</div></section>
+<!-- 10. NÚMEROS E CONQUISTAS -->
+<section class="w-full max-w-[1280px] mx-auto px-margin-mobile lg:px-margin py-20">
+<div class="bg-surface-container rounded-2xl p-space-lg lg:p-space-xl">
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center divide-y lg:divide-y-0 lg:divide-x divide-outline-variant/30">
+<!-- Stat 1 -->
+<div class="flex flex-col items-center pt-4 lg:pt-0">
+<span class="font-display text-display text-primary font-bold tracking-tight">+150</span>
+<span class="font-title-md text-title-md text-on-surface mt-1">Imóveis Negociados</span>
+<span class="font-body-md text-body-md text-secondary">Com satisfação integral</span>
+</div>
+<!-- Stat 2 -->
+<div class="flex flex-col items-center pt-4 lg:pt-0">
+<span class="font-display text-display text-primary font-bold tracking-tight">+9</span>
+<span class="font-title-md text-title-md text-on-surface mt-1">Anos de Experiência</span>
+<span class="font-body-md text-body-md text-secondary">No mercado imobiliário regional</span>
+</div>
+<!-- Stat 3 -->
+<div class="flex flex-col items-center pt-4 lg:pt-0">
+<span class="font-display text-display text-primary font-bold tracking-tight">98%</span>
+<span class="font-title-md text-title-md text-on-surface mt-1">Clientes Satisfeitos</span>
+<span class="font-body-md text-body-md text-secondary">Recomendação direta comprovada</span>
+</div>
+<!-- Stat 4 -->
+<div class="flex flex-col items-center pt-4 lg:pt-0">
+<span class="font-display text-display text-primary font-bold tracking-tight">+320</span>
+<span class="font-title-md text-title-md text-on-surface mt-1">Avaliações Emitidas</span>
+<span class="font-body-md text-body-md text-secondary">Laudos mercadológicos e periciais</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 11. ÚLTIMOS ARTIGOS DO BLOG -->
+<section class="w-full max-w-[1280px] mx-auto px-margin-mobile lg:px-margin pb-24">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Conteúdo Educativo</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-2 tracking-tight">Dicas &amp; Mercado Regional</h2>
+<p class="font-body-md text-body-md text-secondary mt-1">Artigos para te ajudar a tomar decisões conscientes com seu patrimônio.</p>
+</div>
+<a class="inline-flex items-center gap-2 font-label-md text-label-md text-primary hover:text-on-surface transition-colors self-start md:self-auto" data-path="blog" href="blog.html">
+<span>Acessar o blog</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Artigo 1 -->
+<article class="relative bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col group">
+<div class="aspect-[16/10] overflow-hidden bg-surface-container">
+<img alt="Quais documentos você deve exigir antes de assinar a compra de um imóvel?" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"  src="assets/img-26050a4408.jpg"/>
+</div>
+<div class="p-space-md flex flex-col flex-1">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest mb-1">Guia de Compra</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2 mb-2">
+            Quais documentos você deve exigir antes de assinar a compra de um imóvel?
+          </h3>
+<p class="font-body-md text-body-md text-secondary line-clamp-2 mb-4">
+            Evite dores de cabeça no cartório: confira o checklist fundamental de certidões e certifique-se da real regularidade do vendedor.
+          </p>
+<div class="mt-auto pt-3 border-t border-surface-container flex items-center justify-between text-secondary font-label-sm text-label-sm">
+<span>5 min de leitura</span>
+<a class="text-primary font-semibold after:absolute after:inset-0" href="blog-documentos-para-comprar-imovel.html">Ler artigo →</a>
+</div>
+</div>
+</article>
+<!-- Artigo 2 -->
+<article class="relative bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col group">
+<div class="aspect-[16/10] overflow-hidden bg-surface-container">
+<img alt="Por que os ranchos em Rifaina e Igarapava continuam se valorizando tanto?" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"  src="assets/img-08f1ac7ef7.jpg"/>
+</div>
+<div class="p-space-md flex flex-col flex-1">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest mb-1">Tendências &amp; Região</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2 mb-2">
+            Por que os ranchos em Rifaina e Igarapava continuam se valorizando tanto?
+          </h3>
+<p class="font-body-md text-body-md text-secondary line-clamp-2 mb-4">
+            O turismo náutico, a qualidade de vida e a escassez de terrenos com orla privativa colocam nossa região em evidência de investimento.
+          </p>
+<div class="mt-auto pt-3 border-t border-surface-container flex items-center justify-between text-secondary font-label-sm text-label-sm">
+<span>4 min de leitura</span>
+<a class="text-primary font-semibold after:absolute after:inset-0" href="blog-ranchos-rifaina-igarapava-valorizacao.html">Ler artigo →</a>
+</div>
+</div>
+</article>
+<!-- Artigo 3 -->
+<article class="relative bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col group">
+<div class="aspect-[16/10] overflow-hidden bg-surface-container">
+<img alt="A diferença entre opinião de valor de vizinho e um Laudo de Avaliação do CRECI" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"  src="assets/img-c77affb284.jpg"/>
+</div>
+<div class="p-space-md flex flex-col flex-1">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest mb-1">Avaliação Pericial</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2 mb-2">
+            A diferença entre opinião de valor de vizinho e um Laudo de Avaliação do CRECI
+          </h3>
+<p class="font-body-md text-body-md text-secondary line-clamp-2 mb-4">
+            Entenda como a metodologia estatística de mercado traz a validação jurídica indispensável para partilhas de bens e transações seguras.
+          </p>
+<div class="mt-auto pt-3 border-t border-surface-container flex items-center justify-between text-secondary font-label-sm text-label-sm">
+<span>6 min de leitura</span>
+<a class="text-primary font-semibold after:absolute after:inset-0" href="blog-laudo-de-avaliacao-ptam-opiniao-de-valor.html">Ler artigo →</a>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- 12. CTA FINAL CONVIDATIVO -->
+<section id="chamada-final" class="relative w-full overflow-hidden py-28 lg:py-32 isolate" style="clip-path:inset(0);background:#140d04"><div class="fixed top-0 left-0 w-screen h-screen -z-20 overflow-hidden isolate pointer-events-none" aria-hidden="true"><img alt="" loading="lazy" class="absolute inset-0 w-full h-full object-cover" style="filter:brightness(.5)" src="assets/rodape.jpg"/><div class="absolute inset-0" style="background:linear-gradient(180deg,rgba(14,9,3,.76) 0%,rgba(20,13,4,.70) 50%,rgba(14,9,3,.82) 100%)"></div><div class="absolute inset-0 mix-blend-multiply" style="background:rgba(196,154,90,.38)"></div></div>
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin text-center">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-fixed">Inicie seu Próximo Passo</span>
+<h2 class="font-display text-headline-lg lg:text-display text-white mt-2 mb-4 tracking-tight max-w-3xl mx-auto">
+        Quer vender, alugar ou avaliar seu imóvel em Igarapava e região?
+      </h2>
+<p class="font-body-lg text-body-lg text-white/85 max-w-2xl mx-auto mb-8">
+        Vamos conversar sem compromisso. Coloco toda a minha experiência jurídica e de mercado à disposição do seu momento.
+      </p>
+<div class="flex flex-wrap items-center justify-center gap-4">
+<a class="px-8 py-3.5 rounded-lg bg-surface-container-lowest text-on-surface hover:bg-surface font-label-md text-label-md shadow-sm transition-all" data-path="anuncie-seu-imovel" href="https://wa.me/5516994602780?text=Ol%C3%A1%2C%20Rafaela!%20Quero%20anunciar%20meu%20im%C3%B3vel.">
+          Anunciar meu Imóvel
+        </a>
+<a class="px-8 py-3.5 rounded-lg bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-label-md flex items-center gap-2 shadow-sm transition-all" href="https://wa.me/5516994602780" rel="noopener noreferrer" target="_blank">
+<svg class="shrink-0" style="width:21px;height:21px" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zM20.52 3.45A11.8 11.8 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.16-3.48-8.4z"/></svg>
+<span>Falar no WhatsApp (16) 99460-2780</span>
+</a>
+</div>
+</div>
+</section>
+</div>
+<!-- Inline JavaScript for Search Bar Tab Micro-Interaction -->
+<script>
+  function switchSearchTab(type) {
+    const btnComprar = document.getElementById('tab-comprar');
+    const btnAlugar = document.getElementById('tab-alugar');
+    if (!btnComprar || !btnAlugar) return;
+
+    if (type === 'comprar') {
+      btnComprar.className = "px-5 py-2 rounded-lg font-label-md text-label-md bg-primary text-on-primary shadow-sm transition-all duration-200";
+      btnAlugar.className = "px-5 py-2 rounded-lg font-label-md text-label-md bg-surface-container text-on-surface-variant hover:text-on-surface transition-all duration-200";
+    } else {
+      btnAlugar.className = "px-5 py-2 rounded-lg font-label-md text-label-md bg-primary text-on-primary shadow-sm transition-all duration-200";
+      btnComprar.className = "px-5 py-2 rounded-lg font-label-md text-label-md bg-surface-container text-on-surface-variant hover:text-on-surface transition-all duration-200";
+    }
+  }
+</script></main><footer class="w-full bg-inverse-surface text-inverse-on-surface mt-0"><div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin pt-space-xl pb-space-lg"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-3"><img alt="Rafaela Requi – Corretora e Avaliadora de Imóveis" class="h-16 w-auto object-contain" src="assets/logo_rafaela_branca.svg"/></div><p class="font-body-md text-body-md text-secondary-fixed text-justify pt-space-xs">Intermediação imobiliária e avaliação pericial com rigor técnico, discrição e excelência. Dedicada a conectar famílias, proprietários e investidores em Igarapava e em toda a região dos lagos do Rio Grande.</p></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-white border-b border-secondary/30 pb-2">Navegação Rápida</h3><ul class="flex flex-col gap-2 font-label-md text-label-md text-secondary-fixed"><li class="hover:text-primary-fixed transition-colors"><a data-path="inicio" href="index.html">Início</a></li><li class="hover:text-primary-fixed transition-colors"><a data-path="imoveis" href="imoveis.html">Buscar Imóveis</a></li><li class="hover:text-primary-fixed transition-colors"><a data-path="avaliacao-de-imoveis" href="avaliacao.html">Avaliação Pericial de Imóveis</a></li><li class="hover:text-primary-fixed transition-colors"><a data-path="anuncie-seu-imovel" href="https://wa.me/5516994602780?text=Ol%C3%A1%2C%20Rafaela!%20Quero%20anunciar%20meu%20im%C3%B3vel.">Anuncie seu Imóvel</a></li><li class="hover:text-primary-fixed transition-colors"><a data-path="financiamento" href="financiamento.html">Simulação de Financiamento</a></li><li class="hover:text-primary-fixed transition-colors"><a data-path="sobre" href="sobre.html">Sobre a Corretora</a></li><li class="hover:text-primary-fixed transition-colors"><a data-path="blog" href="blog.html">Artigos &amp; Mercado</a></li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-white border-b border-secondary/30 pb-2">Região de Atuação</h3><ul class="flex flex-col gap-2 font-body-md text-body-md text-secondary-fixed"><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-primary-fixed">arrow_forward</span>Igarapava – SP (Sede)</li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-primary-fixed">arrow_forward</span>Rifaina – SP (Marina e Condomínios)</li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-primary-fixed">arrow_forward</span>Pedregulho – SP</li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-primary-fixed">arrow_forward</span>Aramina – SP</li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-primary-fixed">arrow_forward</span>Buritizal – SP</li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-white border-b border-secondary/30 pb-2">Atendimento</h3><div class="flex flex-col gap-3 font-body-md text-body-md text-secondary-fixed"><a class="flex items-center gap-2 hover:text-primary-fixed transition-colors" href="https://wa.me/5516994602780"><svg class="shrink-0" style="width:21px;height:21px" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zM20.52 3.45A11.8 11.8 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.16-3.48-8.4z"/></svg><span>(16) 99460-2780</span></a><a class="flex items-center gap-2 hover:text-primary-fixed transition-colors" href="mailto:contato@rafaelarequiimoveis.com.br"><span class="material-symbols-outlined text-primary-fixed text-[20px]">mail</span><span class="break-all">contato@rafaelarequiimoveis.com.br</span></a><div class="flex items-start gap-2"><span class="material-symbols-outlined text-primary-fixed text-[20px] shrink-0">location_on</span><span>Atendimento presencial em Igarapava – SP e visitas agendadas na região.</span></div></div><div class="pt-2 flex items-center gap-3"></div></div></div><div class="border-t border-secondary/20 pt-space-md flex flex-col md:flex-row items-center justify-between gap-4 font-label-sm text-label-sm text-secondary-fixed"><p>© 2026 Rafaela Requi – Corretora e Avaliadora de Imóveis • CRECI 217 650-F. Todos os direitos reservados.</p><div class="flex items-center gap-space-md"><a class="hover:text-primary-fixed transition-colors" data-path="politica-de-privacidade" href="politica-de-privacidade.html">Política de Privacidade</a><span class="text-secondary">•</span><a class="hover:text-primary-fixed transition-colors" data-path="termos-de-uso" href="termos-de-uso.html">Termos de Uso</a></div></div></div><div class="bg-inverse-surface border-t border-white/10"><div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin py-3 flex flex-wrap items-center justify-center gap-3 text-inverse-on-surface font-label-sm text-label-sm"><span class="uppercase tracking-wider opacity-80">Imagens dos cards:</span><div class="inline-flex rounded-full border border-white/20 p-0.5" role="group" aria-label="Imagens dos cards"><button type="button" data-photos="stitch" class="photo-opt px-4 py-1.5 rounded-full font-semibold transition-colors" aria-pressed="true">Ilustrativas</button><button type="button" data-photos="real" class="photo-opt px-4 py-1.5 rounded-full font-semibold transition-colors" aria-pressed="false">Fotos reais</button></div></div></div></footer><aside class="fixed bottom-6 right-6 z-50"><a aria-label="Conversar no WhatsApp" class="relative group flex items-center justify-center w-14 h-14 bg-[#25D366] text-white rounded-full shadow-[0_20px_32px_-8px_rgba(30,30,30,0.25)] hover:scale-105 transition-all duration-300" href="https://wa.me/5516994602780" rel="noopener noreferrer" target="_blank"><span class="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-25 group-hover:opacity-40"></span><svg class="w-8 h-8 relative z-10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zM20.52 3.45A11.8 11.8 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.16-3.48-8.4z"/></svg></a></aside><script src="assets/site.js"></script></body></html>
